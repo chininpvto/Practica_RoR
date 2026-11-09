@@ -1,0 +1,21 @@
+.tabla-persona {
+  width: 70%;
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+
+.tabla-persona th,
+.tabla-persona td {
+  border: 1px solid black;
+  padding: 12px;
+  text-align: left;
+}
+
+.tabla-persona th {
+  background-color: #333333;
+  color: white;
+}
+
+.tabla-persona tr:nth-child(even) {
+  background-color: #eeeeee;
+}
